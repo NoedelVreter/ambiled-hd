@@ -1,0 +1,53 @@
+{
+	"device" :
+	{
+		"name"       : "ambiled",
+		"type"       : "adalight",
+		"output"     : "/dev/ttyUSB0",
+		"rate"       : 500000,
+		"colorOrder" : "rgb"
+	},
+	"color" :
+	{
+		"transform" :
+		[
+			{
+				"id"   : "default",
+				"leds" : "*",
+				"hsv" :
+				{
+					"saturationGain" : 1.0000,
+					"valueGain"      : 1.0000
+				},
+				"red" :
+				{
+					"threshold"  : 0.0000,
+					"gamma"      : 1.0000,
+					"blacklevel" : 0.0000,
+					"whitelevel" : 1.0000
+				},
+				"green" :
+				{
+					"threshold"  : 0.0000,
+					"gamma"      : 1.0000,
+					"blacklevel" : 0.0000,
+					"whitelevel" : 1.0000
+				},
+				"blue" :
+				{
+					"threshold"  : 0.0000,
+					"gamma"      : 1.0000,
+					"blacklevel" : 0.0000,
+					"whitelevel" : 1.0000
+				}
+			}
+		],
+		"smoothing" :
+		{
+			"type"            : "linear",
+			"time_ms"         : 250,
+			"updateFrequency" : 30.0000
+		}
+	},
+
+	---- SNIP ---
